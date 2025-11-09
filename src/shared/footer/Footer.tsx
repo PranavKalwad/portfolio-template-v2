@@ -39,8 +39,8 @@ export const Footer: FC = () => {
                 justifyContent={{ base: "center", md: "space-between" }}
                 direction={{ base: "column", md: "row" }}
             >
-                <Text>This site is hand-crafted, with care by me.</Text>
-                <Text>&copy; {new Date().getFullYear()} All rights reserved.</Text>
+                <Text>Kudos to <a href="https://www.linkedin.com/in/hrishikeshpaul/" target="_blank" rel="noopener noreferrer">Hirshikesh Paul</a> for this amazing template</Text>
+                {/* <Text>&copy; {new Date().getFullYear()} All rights reserved.</Text> */}
             </Flex>
         </>
     );

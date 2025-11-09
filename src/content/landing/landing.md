@@ -1,10 +1,12 @@
-Welcome 👋 I'm a _Frontend Software Engineer_ at [Reputation](https://reputation.com/) based out of Chicago, Illinois. I recently graduated from Indiana University with a Masters degree in Computer Science and I'm passionate about **Software Development**, **UX Design** and **Artificial Intelligence**.
+Certified Data Engineer with deep expertise in Snowflake, Databricks, Airflow, Azure, and Python. I have a proven track record of designing and implementing scalable data pipelines, optimizing ETL, and driving business intelligence initiatives. I leverage SQL, NoSQL, and cloud-based solutions to enhance data accessibility and operational efficiency.
 
 I'm currently working with,
 
--   React (TS)
--   NodeJS
--   Flask (Python)
--   HTML/SCSS
--   WebSockets
--   GraphQL
+-   Databricks
+-   PySpark
+-   Snowflake
+-   dbt
+-   Apache Airflow
+-   SQL
+-   Python
+-   ETL/ELT

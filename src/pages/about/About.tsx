@@ -30,11 +30,11 @@ export const About: FC = () => {
                 <Box flex="0.85">
                     <Heading data-aos="fade-down">{configs.common.name}</Heading>
                     <Flex alignItems="center">
-                        <Text fontWeight="bold" opacity="0.5" data-aos="fade" data-aos-delay="200">
+                        {/* <Text fontWeight="bold" opacity="0.5" data-aos="fade" data-aos-delay="200">
                             {configs.common.pronunciation}
-                        </Text>
+                        </Text> */}
 
-                        <Button
+                        {/* <Button
                             size="xs"
                             aria-label="pronunciation button"
                             as={IconButton}
@@ -44,7 +44,7 @@ export const About: FC = () => {
                             onClick={onPlay}
                             data-aos="fade"
                             data-aos-delay="400"
-                        />
+                        /> */}
                     </Flex>
                     <Box pt="4" data-aos="fade-up" data-aos-delay="400">
                         <Content fontSize="lg">{content.about}</Content>

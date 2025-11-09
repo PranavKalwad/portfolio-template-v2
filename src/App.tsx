@@ -4,7 +4,7 @@ import { Box, Container, Center, Spinner } from "@chakra-ui/react";
 import AOS from "aos";
 
 import { NavbarHeight } from "theme";
-import { AboutPageId, WorkPageId } from "utils/useScroll";
+import { AboutPageId } from "utils/useScroll";
 
 import "./App.scss";
 import "aos/dist/aos.css";
@@ -15,16 +15,16 @@ const PageHeader = lazy(() =>
     import("shared/page-header/PageHeader").then((module) => ({ default: module.PageHeader })),
 );
 const Footer = lazy(() => import("shared/footer/Footer").then((module) => ({ default: module.Footer })));
-const FeaturedProjects = lazy(() =>
-    import("pages/featured-projects/FeaturedProjects").then((module) => ({
-        default: module.FeaturedProjects,
-    })),
-);
-const OtherProjects = lazy(() =>
-    import("pages/other-projects/OtherProjects").then((module) => ({
-        default: module.OtherProjects,
-    })),
-);
+// const FeaturedProjects = lazy(() =>
+//     import("pages/featured-projects/FeaturedProjects").then((module) => ({
+//         default: module.FeaturedProjects,
+//     })),
+// );
+// const OtherProjects = lazy(() =>
+//     import("pages/other-projects/OtherProjects").then((module) => ({
+//         default: module.OtherProjects,
+//     })),
+// );
 const About = lazy(() => import("pages/about/About").then((module) => ({ default: module.About })));
 
 const Loader: FC = () => (
@@ -45,13 +45,13 @@ export const App: FC = () => {
 
                 <Box mt={{ base: "96px", md: NavbarHeight }}>
                     <Landing />
-                    <Box id={WorkPageId}>
+                    {/* <Box id={WorkPageId}>
                         <PageHeader label="Featured Projects" />
                         <FeaturedProjects />
 
                         <PageHeader id="page-other-projects" label="Other Projects" />
                         <OtherProjects />
-                    </Box>
+                    </Box> */}
 
                     <Box id={AboutPageId}>
                         <PageHeader label="About Me" />
